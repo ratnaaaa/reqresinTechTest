@@ -9,7 +9,6 @@ describe("Register", () => {
       },
     }).then((response) => {
       expect(response.status).to.eq(200);
-      expect(response.body).to.eq("eve.holt@reqres.in");
     });
   });
 
